@@ -1,0 +1,41 @@
+.datos2{
+    display: inline-flex;
+    width: 70%;
+    height: 340px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px 90px;
+    opacity: 0.8;
+
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(
+        150deg,rgb(0, 0, 0) , rgb(120, 138, 150), #b0d8df);
+    border-radius: 8px;
+     color:white;
+     display: flex;
+     font-size: 50px;
+     padding: 90px;
+     cursor: pointer;
+     transition: .3s;
+     font-family: Comic Sans MS; 
+     
+}
+li{
+    list-style-type: none;
+}
+a:hover {
+    transition: 0.2s;
+    transform: scale(112%);
+    background-color: blanchedalmond;
+}
+h1{
+     text-align: left; 
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+    font-size: 30px; 
+    color: #EBD758; 
+    text-align: center;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
